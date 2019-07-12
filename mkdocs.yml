@@ -1,0 +1,31 @@
+site_name: 'KARSHA Documentation'
+site_description: 'KARSHA project documentation'
+site_author: 'Lanka Software Foundation'
+site_url: 'http://#'
+
+repo_name: 'KARSHA-lsf/Karsha-doc'
+repo_url: 'https://github.com/KARSHA-lsf/Karsha-doc'
+
+copyright: 'Copyright &copy; 2018 - 2019 Lanka Software Foundation'
+
+nav:
+    - Home: index.md
+   
+    
+theme:
+  name: 'material'
+  palette:
+    primary: 'amber'
+    accent: 'amber'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  language: 'en'
+
+# Extensions
+markdown_extensions:
+  - admonition:
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
